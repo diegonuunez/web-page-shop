@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba</title>
+    <link rel="stylesheet" type="text/css" href="/Style/a.css">
+</head>
+<body>
+    <header>
+        <div class="Cabecera">
+            <nav class="navbar">
+                <ul>
+                    <li class="Nombre">
+                        <h3>Nombre de la Tienda</h3>
+                    </li>
+                    <li class="Inicio">
+                        <a href="Main_page.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="Catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="Contacto">
+                        <a href="Contacto.html">Contacto</a>
+                    </li>
+                    <li class="CarritoB">
+                        <a class="boton-carrito" onclick="toggleCarrito();">
+                            <img src="/Imagenes/cart-shopping-solid.png" alt="" id="carrito-icono">   
+                        </a>
+                    </li>
+                    <li id="login" class="login">
+                        <button class="login">Login</button>
+                    </li>
+                    <li id="registro" class="Registro">
+                        <button class="registro">Registro</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="Hero">
+        <h1>Nombre de la Tienda</h1>
+        <p>Descripcion de la tienda</p>
+    </div>
+
+    <div class="BestSellers">
+        <h2>Best Sellers</h2>
+        <div class="Productos">
+            <div class="Producto">
+                <img src="/Imagenes/tomate.jpg">
+                <h3>Tomate</h3>
+            </div>
+            <div class="Producto">
+                <img src="/Imagenes/zanahoria.jpg">
+                <h3>Zanahoria</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="Ofertas">
+        <h2>Ofertas</h2>
+        <div class="Productos">
+            <div class="Producto">
+                <img src="/Imagenes/tomate.jpg">
+                <h3>Tomate</h3>
+            </div>
+            <div class="Producto">
+                <img src="/Imagenes/zanahoria.jpg">
+                <h3>Lechuga</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="carrito-banda">
+        <!-- Contenido del carrito -->
+    </div>
+
+    <script defer src="/Script/code.js"></script>    
+</body>
+</html>
